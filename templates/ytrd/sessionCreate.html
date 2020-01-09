@@ -1,0 +1,22 @@
+<h1>Login into the account</h1>
+<h2>Enter the phone number and password</h2>
+
+<div class="inputWrapper">
+    <form id="createSession" action="api/tokens" method="POST">
+    <div class="formError"></div>
+
+    <div class="inputWrapper">
+        <div class="inputLabel">Phone Number</div>
+        <input type="text" name="phone" placeholder="Enter 10 Digit Mobile Here" />
+    </div>
+    
+    <div class="inputWrapper">
+        <div class="inputLabel">Password</div>
+        <input type="text" name="password" placeholder="***********" />
+    </div>
+
+    <div class="inputWrapper ctaWrapper">
+        <button type="submit" class="cta blue">Log in</button>
+    </div>
+</form>
+</div>
